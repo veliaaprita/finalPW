@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Family Tree</title>
+		<link rel="stylesheet" type="text/css" href="galeri.css" >
+		
+	</head>
+	<body>
+	<script src="galeri.js"></script>
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<img src="logo.png"/>
+				</div>
+				
+				<div class="title">
+					Family Tree
+				</div>
+			</div>
+			
+			<div class="menu">
+				<div class="kiri">
+					<ul>
+						<li><a href="2 home.html">Home</li></a>
+						<li><a href="6 family tree.html">Silsilah</li></a>
+						
+						<li><a href="galeri.html">Galeri</li></a>
+					</ul>
+				</div>	
+				
+				<div class="kanan">
+					  <a href="1 login.html" class="upright"><img src="profil1.png"></a>
+					
+				</div>
+	
+			</div>
+			
+			<div class="content">
+				<img class="begron" src="logo.png"> <!--logo web-->
+
+				<div class="box">
+					<form name='biodata' method='post'>
+					<table>
+      
+						<h1  >Unggah Foto Keluarga Anda </h1>
+						<div class="tabel">
+						Nama Keluarga Pada Foto : 
+							<input type="text" name="nama" placeholder="nama" class="list" size = 40px>
+						Tanggal Foto :<input type="date" name="tanggal" size="21px"></input>
+
+						Unggah Foto       :<input type="file" name="foto" class="list" size="40px">
+						<button type='button' onClick='terimainput()' value='Simpan'>SIMPAN</button>
+						<button type='reset'  value='Reset'>RESET</button>
+		
+						</div>
+				</div>
+					</table>	
+					</form>
+			</div>
+			<div class="table">
+			<table border='3' cellpadding='10' id='tabelinput'>
+				<tr>
+					<td>NAMA</td>
+					<td>TANGGAL</td>
+					<td>FOTO</td>
+		
+				</tr>
+			</table>
+			</div>
+		
+			
+		
+	</body>
+</html>

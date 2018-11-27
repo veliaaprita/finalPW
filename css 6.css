@@ -1,0 +1,298 @@
+* {
+	margin:0;
+	padding:0;
+}
+.container {
+	width:100%;
+	min-height:600px;
+	border:1px solid;
+	margin:0% auto;
+}
+.header {
+	width:100%;
+	height:50px;
+	border:1px solid;
+	background-color:#323334;
+	color:#FFF;
+}
+.menu {
+	background-color:plum; 
+	height:50px; 
+	line-height:50px; 
+	position:relative;
+	width:100%;
+	margin:auto;
+
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  margin-right:20px;
+}
+.menu ul li {
+	height:50px;
+	width:30%;
+	text-align:center;
+	float:left;
+	line-height:50px;
+	list-style:none;
+	position:relative;
+}
+
+.menu ul {
+	list-style:none;
+}
+.menu ul li a {
+	float:left; 
+	width:150px; 
+	display:block; 
+	text-align:center; 
+	color:#FFF; 
+	text-decoration:none; 
+	text-transform:uppercase;
+}
+ 
+.menu ul li a:hover {
+	background-color:#666; 
+	display:block;
+}
+ 
+.menu ul li:hover ul {
+	display:block;
+}
+ 
+.menu ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	background-color:#53bd84;
+	left:300px; 
+	top:50px; 
+	width:190px;
+}
+ 
+.menu ul ul li a {
+	float:none; 
+	display:block; 
+	padding-left:30px; 
+	text-align:left; 
+	width:160px;
+}
+ 
+.menu ul ul li a:hover {
+	color:#fff;
+}
+.content {
+	width:100%;
+	height:800px;
+	border:1px solid;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	font-size: 50;
+	text-align:center;
+	background-color:purple;
+
+
+}
+.begron {
+  padding-top: 20px;
+  float:left;
+}
+.logo {
+	width:5%;
+	height:50px;
+	float:left;
+	background-color:#323334;
+}
+.logo img {
+	width:100%;
+	height:50px;
+}
+.title {
+	width:40%;
+	height:50px;
+	font-size:40px;
+	background-color:#323334;
+}
+.profil {
+	width:20%;
+	height:50px;
+	float:right;
+}
+
+
+
+
+
+
+
+.person {
+  position: absolute;
+  background: purple;
+  width: 155px;
+  height: 155px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+}
+.person2 {
+  position: absolute;
+  background: purple;
+  width: 122px;
+  height: 122px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+}
+.person3 {
+  position: absolute;
+  background: purple;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+}
+
+.person img {
+  max-width: 158px;
+  vertical-align: middle;
+}
+.person2 img {
+  max-width: 124px;
+  vertical-align: middle;
+}
+.person3 img {
+  max-width: 112px;
+  vertical-align: middle;
+}
+
+.keluarga1 {
+  left: 197px;
+  top: 120px;
+}
+
+.keluarga2 {
+  left: 385px;
+  top: 120px;
+}
+
+.keluarga3 {
+  left: 65px;
+  top: 305px;
+}
+
+.keluarga4 {
+  left: 200px;
+  top: 305px;
+}
+
+.keluarga5 {
+  left: 387px;
+  top: 305px;
+}
+
+.keluarga6 {
+  left: 523px;
+  top: 305px;
+}
+
+.keluarga7 {
+  left: 75px;
+  top: 480px;
+}
+
+.keluarga8 {
+  left: 201px;
+  top: 480px;
+}
+
+.keluarga9 {
+  left: 345px;
+  top: 480px;
+}
+
+.keluarga10 {
+  left: 460px;
+  top: 480px;
+}
+
+.keluarga11 {
+  left: 584px;
+  top: 480px;
+}
+
+.info {
+  position: absolute;
+  right: 100;
+  top: 140;
+  border: 2px solid #fff;
+  width: 320px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.info .heading {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.info .heading img {
+  width: 100px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.info .heading .name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.info .detail {
+  font-size: 12px;
+}
+
+.info .detail .row:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.info .detail .left {
+  width: 26%;
+  line-height: 26px;
+}
+
+.info .detail .right {
+  width: 72%;
+  padding: 0px 10px;
+  background: #fff;
+  border-radius: 4px;
+  color: #444;
+  line-height: 26px;
+}
+
+.person:focus {
+  -webkit-box-shadow: 0px 2px 15px 2px rgba(59, 103, 202, 0.5);
+  box-shadow: 0px 2px 15px 2px rgba(59, 103, 202, 0.5);
+}
+.keluarga1:focus + .keluarga1-info,
+.keluarga2:focus + .keluarga2-info,
+.keluarga3:focus + .keluarga3-info,
+.keluarga4:focus + .keluarga4-info,
+.keluarga5:focus + .keluarga5-info,
+.keluarga6:focus + .keluarga6-info,
+.keluarga7:focus + .keluarga7-info,
+.keluarga8:focus + .keluarga8-info,
+.keluarga9:focus + .keluarga9-info,
+.keluarga10:focus + .keluarga10-info,
+.keluarga11:focus + .keluarga11-info
+{
+	z-index:999;
+  display: block;
+}
